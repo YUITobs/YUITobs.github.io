@@ -1,0 +1,68 @@
+body, a {
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: #FAE0E9;
+  text-decoration: none;
+}
+legend{
+  font-weight: bold;
+  text-align: left;
+}
+#anm{
+  animation: anima 2s;
+}
+@keyframes anima1 {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes anima2 {
+  0% {
+    transform: translateY(-600px) rotateX(-30deg) scale(0);
+    transform-origin: 50% 70%;
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) rotateX(0) scale(1);
+    transform-origin: 50% 700px;
+    opacity: 1;
+  }
+}
+
+#sampul{
+  width: 100%;
+  height: 180px;
+  margin: auto auto;
+  display: block;
+  background: url(../YuiTobz.jpg) center ;
+  background-size: cover;
+  animation: anima1 3s;
+}
+#bingkai{
+  border: 1px solid black;
+  width: 90%;
+  margin: auto;
+  animation: anima1 2s;
+}
+#des{
+  color: green;
+}
+#bingkai1{
+  border: 1px solid black;
+  width: 38vw;
+  display: inline;
+  animation: anima2 2s;
+}
+.centr{.
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  overflow: hidden;
+}
+#cpr{
+  animation: anima1 2s;
+  font-size: 13px;
+  text-align: center;
+}
