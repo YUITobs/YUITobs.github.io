@@ -49,6 +49,9 @@ legend{
 #des{
   color: green;
 }
+#desoff{
+  color: red;
+}
 #bingkai1{
   border: 1px solid black;
   width: 38vw;
